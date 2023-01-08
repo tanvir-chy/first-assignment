@@ -34,7 +34,6 @@ h3 {
 h4 {
     margin-top: 24px;
     font-weight: 500;
-    font-size: 25px;
     color: #737272;
     text-transform: capitalize;
 }
@@ -160,6 +159,12 @@ main {
     text-align: center;
 }
 
+.plans h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+
 .plans p {
     margin-top: 16px;
     margin-bottom: 0;
@@ -275,6 +280,7 @@ main {
 .subscribe-area h4 {
     color: #ffffff;
     margin-bottom: 31px;
+    font-size: 25px;
 }
 
 .subscribe-area input[type="email"] {
