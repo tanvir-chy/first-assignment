@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 ::placeholder {
     color: #F3F3F3;
     font-size: 18px;
@@ -35,6 +39,14 @@ h4 {
     text-transform: capitalize;
 }
 
+h5 {
+    text-transform: uppercase;
+    color: #005FAC;
+    margin-bottom: 20px;
+}
+
+/* Common CSS */
+
 .primary-button {
     background-color: #ffffff;
     border-radius: 5px;
@@ -45,6 +57,14 @@ h4 {
     text-transform: capitalize;
     border: 0;
     cursor: pointer;
+}
+
+.primary-button:hover {
+    border: 1px solid #ffffff;
+    background: #ffffff00;
+    color: #ffffff;
+    padding: 19px 29px;
+    border-radius: 0;
 }
 
 .section-title {
@@ -121,8 +141,16 @@ main {
 
 /* My plans */
 
-.my-plans {
+.my-plans-area {
     margin-top: 130px;
+}
+
+.my-plans-area h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.my-plans {
     display: flex;
     justify-content: center;
     gap: 86px;
@@ -136,6 +164,73 @@ main {
     margin-top: 16px;
     margin-bottom: 0;
 }
+
+/* Pricing plans */
+
+.pricing-plans-area {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.pricing-plans-area h3 {
+    text-align: center;
+    color: #005FAC;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.pricing {
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 24px 48px -13px rgb(0 0 0 / 15%);
+    padding: 60px 40px
+}
+
+.pricing-down {
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 24px 48px -13px rgb(0 0 0 / 15%);
+    padding: 60px 40px;
+    margin-top: 50px;
+}
+
+.pricing-button {
+    background-color: #ffffff00;
+    border: 1px solid #005FAC;
+    color: #005FAC;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 15px 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pricing-button:hover {
+    background: #005fac;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.pricing-plans ul {
+    list-style: none;
+    padding: 40px 0px;
+}
+
+.pricing-plans ul li {
+    font-size: 17px;
+    line-height: 2.5em;
+}
+
+.pricing-plans ul li i {
+    color: #005FAC;
+}
+
 
 /* Call to action */
 
