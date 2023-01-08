@@ -1,3 +1,13 @@
+::placeholder {
+    color: #F3F3F3;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 * {
     margin: 0;
     font-family: 'Work Sans';
@@ -148,16 +158,46 @@ main {
 
 .footer-section {
     margin-top: 130px;
+    padding: 130px 350px;
     background-color: black;
-    height: 50vh;
+}
+
+.footer-container {
+    display: flex;
+    color: #ffffff;
+    gap: 88px;
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.social-media a img {
+    padding-right: 17px;
+}
+
+.subscribe-area h4 {
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+
+.subscribe-area input[type="email"] {
+    background-color: #ffffff00;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    padding: 22px 158px 22px 18px;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .subscribe-button {
-    background-color: #ffffff;
+    background-color: #005FAC;
     border-radius: 8px;
     padding: 20px 30px;
     font-size: 20px;
     font-weight: 600;
-    color: #005FAC;
+    color: #ffffff;
     cursor: pointer;
+    margin-top: 16px;
 }
