@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 24px 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-transform: capitalize;
+}
+
+h4 {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-transform: capitalize;
+}
+
+.primary-button {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    text-transform: capitalize;
+    border: 0;
+    cursor: pointer;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Banner Section */
+
+.banner-content {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-20%, -50%);
+    color: white;
+}
+
+.banner {
+    background-image: url(../imges/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.banner-title {
+    font-size: 65px;
+    color: #ffffff;
+    line-height: 76px;
+    font-weight: 700;
+}
+
+.banner-desc {
+    margin: 24px 0;
+    font-size: 20px;
+}
+
+
+/* About Section */
+
+
+.about {
+    margin-top: 130px;
+}
+
+.about-content {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.about-content ul li i {
+    color: #16D887;
+}
+
+/* My plans */
+
+.my-plans {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans p {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+/* Call to action */
+
+.cta-details h3 {
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.cta {
+    background-image: url(../imges/gradient1.png), url(../imges/watch.png);
+    margin-top: 130px;
+    padding: 59px 617px 59px 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Footer */
+
+.footer-section {
+    margin-top: 130px;
+    background-color: black;
+    height: 50vh;
+}
+
+.subscribe-button {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    cursor: pointer;
+}
